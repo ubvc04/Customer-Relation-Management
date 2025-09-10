@@ -1,0 +1,157 @@
+[
+  {
+    "_id": "507f1f77bcf86cd799439031",
+    "customerId": "507f1f77bcf86cd799439021",
+    "title": "Website Redesign Project",
+    "description": "Complete website overhaul with modern design and functionality",
+    "status": "Qualified",
+    "value": 50000,
+    "currency": "USD",
+    "probability": 75,
+    "expectedCloseDate": "2025-12-31T00:00:00.000Z",
+    "source": "Website",
+    "priority": "high",
+    "assignedTo": "507f1f77bcf86cd799439012",
+    "activities": [
+      {
+        "type": "call",
+        "description": "Initial discovery call completed",
+        "date": "2025-09-05T14:00:00.000Z",
+        "userId": "507f1f77bcf86cd799439012"
+      },
+      {
+        "type": "email",
+        "description": "Sent proposal and timeline",
+        "date": "2025-09-06T10:30:00.000Z",
+        "userId": "507f1f77bcf86cd799439012"
+      }
+    ],
+    "tags": ["web-development", "high-value"],
+    "nextFollowUp": "2025-09-15T09:00:00.000Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439032",
+    "customerId": "507f1f77bcf86cd799439021",
+    "title": "CRM Integration",
+    "description": "Integration with existing CRM system",
+    "status": "Proposal",
+    "value": 25000,
+    "currency": "USD",
+    "probability": 60,
+    "expectedCloseDate": "2025-11-15T00:00:00.000Z",
+    "source": "Referral",
+    "priority": "medium",
+    "assignedTo": "507f1f77bcf86cd799439012",
+    "activities": [
+      {
+        "type": "meeting",
+        "description": "Technical requirements gathering",
+        "date": "2025-09-08T15:00:00.000Z",
+        "userId": "507f1f77bcf86cd799439012"
+      }
+    ],
+    "tags": ["integration", "crm"],
+    "nextFollowUp": "2025-09-20T14:00:00.000Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439033",
+    "customerId": "507f1f77bcf86cd799439022",
+    "title": "SaaS Platform Development",
+    "description": "Custom SaaS platform for customer management",
+    "status": "Negotiation",
+    "value": 150000,
+    "currency": "USD",
+    "probability": 85,
+    "expectedCloseDate": "2025-10-30T00:00:00.000Z",
+    "source": "Cold Call",
+    "priority": "high",
+    "assignedTo": "507f1f77bcf86cd799439013",
+    "activities": [
+      {
+        "type": "call",
+        "description": "Initial contact and needs assessment",
+        "date": "2025-09-01T11:00:00.000Z",
+        "userId": "507f1f77bcf86cd799439013"
+      },
+      {
+        "type": "meeting",
+        "description": "Demo presentation completed",
+        "date": "2025-09-07T16:00:00.000Z",
+        "userId": "507f1f77bcf86cd799439013"
+      }
+    ],
+    "tags": ["saas", "large-deal"],
+    "nextFollowUp": "2025-09-12T10:00:00.000Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439034",
+    "customerId": "507f1f77bcf86cd799439023",
+    "title": "Digital Transformation Consulting",
+    "description": "Comprehensive digital transformation strategy and implementation",
+    "status": "Contacted",
+    "value": 200000,
+    "currency": "USD",
+    "probability": 40,
+    "expectedCloseDate": "2026-03-31T00:00:00.000Z",
+    "source": "Event",
+    "priority": "high",
+    "assignedTo": "507f1f77bcf86cd799439014",
+    "activities": [
+      {
+        "type": "email",
+        "description": "Follow-up email after trade show meeting",
+        "date": "2025-09-03T09:00:00.000Z",
+        "userId": "507f1f77bcf86cd799439014"
+      }
+    ],
+    "tags": ["consulting", "digital-transformation"],
+    "nextFollowUp": "2025-09-18T13:00:00.000Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439035",
+    "customerId": "507f1f77bcf86cd799439024",
+    "title": "Healthcare Compliance Solution",
+    "description": "HIPAA-compliant data management system",
+    "status": "New",
+    "value": 75000,
+    "currency": "USD",
+    "probability": 25,
+    "expectedCloseDate": "2026-01-15T00:00:00.000Z",
+    "source": "Website",
+    "priority": "medium",
+    "assignedTo": "507f1f77bcf86cd799439012",
+    "activities": [],
+    "tags": ["healthcare", "compliance", "hipaa"],
+    "nextFollowUp": "2025-09-14T11:00:00.000Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439036",
+    "customerId": "507f1f77bcf86cd799439025",
+    "title": "Learning Management System",
+    "description": "Custom LMS for K-12 education with parent portal",
+    "status": "Qualified",
+    "value": 120000,
+    "currency": "USD",
+    "probability": 70,
+    "expectedCloseDate": "2025-12-15T00:00:00.000Z",
+    "source": "Referral",
+    "priority": "high",
+    "assignedTo": "507f1f77bcf86cd799439013",
+    "activities": [
+      {
+        "type": "call",
+        "description": "Requirements discussion with decision makers",
+        "date": "2025-09-04T14:30:00.000Z",
+        "userId": "507f1f77bcf86cd799439013"
+      },
+      {
+        "type": "meeting",
+        "description": "Product demo and Q&A session",
+        "date": "2025-09-09T10:00:00.000Z",
+        "userId": "507f1f77bcf86cd799439013"
+      }
+    ],
+    "tags": ["education", "lms", "k12"],
+    "nextFollowUp": "2025-09-16T15:00:00.000Z"
+  }
+]

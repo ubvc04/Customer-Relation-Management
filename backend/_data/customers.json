@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "507f1f77bcf86cd799439021",
+    "name": "Acme Corporation",
+    "email": "contact@acme.com",
+    "phone": "+1-555-123-4567",
+    "company": "Acme Corporation",
+    "address": {
+      "street": "123 Business Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "industry": "Technology",
+    "website": "https://acme.com",
+    "ownerId": "507f1f77bcf86cd799439012",
+    "tags": ["enterprise", "high-priority"],
+    "notes": "Important client with high volume potential",
+    "status": "active"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439022",
+    "name": "TechStart Inc",
+    "email": "hello@techstart.com",
+    "phone": "+1-555-234-5678",
+    "company": "TechStart Inc",
+    "address": {
+      "street": "456 Innovation Dr",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94102",
+      "country": "USA"
+    },
+    "industry": "Technology",
+    "website": "https://techstart.com",
+    "ownerId": "507f1f77bcf86cd799439013",
+    "tags": ["startup", "saas"],
+    "notes": "Fast-growing startup, potential for large deals",
+    "status": "prospect"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439023",
+    "name": "Global Manufacturing",
+    "email": "sales@globalmanuf.com",
+    "phone": "+1-555-345-6789",
+    "company": "Global Manufacturing Co",
+    "address": {
+      "street": "789 Industrial Blvd",
+      "city": "Detroit",
+      "state": "MI",
+      "zipCode": "48201",
+      "country": "USA"
+    },
+    "industry": "Manufacturing",
+    "website": "https://globalmanuf.com",
+    "ownerId": "507f1f77bcf86cd799439014",
+    "tags": ["manufacturing", "large-enterprise"],
+    "notes": "Traditional manufacturing company looking to modernize",
+    "status": "active"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439024",
+    "name": "HealthTech Solutions",
+    "email": "contact@healthtech.com",
+    "phone": "+1-555-456-7890",
+    "company": "HealthTech Solutions",
+    "address": {
+      "street": "321 Medical Center Dr",
+      "city": "Boston",
+      "state": "MA",
+      "zipCode": "02101",
+      "country": "USA"
+    },
+    "industry": "Healthcare",
+    "website": "https://healthtech.com",
+    "ownerId": "507f1f77bcf86cd799439012",
+    "tags": ["healthcare", "compliance"],
+    "notes": "Healthcare technology company with strict compliance requirements",
+    "status": "prospect"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439025",
+    "name": "EduLearn Platform",
+    "email": "info@edulearn.com",
+    "phone": "+1-555-567-8901",
+    "company": "EduLearn Platform",
+    "address": {
+      "street": "654 University Ave",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA"
+    },
+    "industry": "Education",
+    "website": "https://edulearn.com",
+    "ownerId": "507f1f77bcf86cd799439013",
+    "tags": ["education", "platform"],
+    "notes": "Online education platform serving K-12 schools",
+    "status": "active"
+  }
+]

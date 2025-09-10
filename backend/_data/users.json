@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "507f1f77bcf86cd799439011",
+    "name": "Admin User",
+    "email": "admin@crm.com",
+    "password": "admin123",
+    "role": "admin",
+    "isActive": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439012",
+    "name": "John Smith",
+    "email": "john@crm.com",
+    "password": "password123",
+    "role": "user",
+    "isActive": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439013",
+    "name": "Sarah Johnson",
+    "email": "sarah@crm.com",
+    "password": "password123",
+    "role": "user",
+    "isActive": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439014",
+    "name": "Mike Davis",
+    "email": "mike@crm.com",
+    "password": "password123",
+    "role": "user",
+    "isActive": true
+  }
+]
