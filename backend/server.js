@@ -5,7 +5,7 @@ const path = require('path');
 // Load env vars
 dotenv.config();
 
-const connectDB = require('./config/database');
+const { connectDB, checkDatabaseHealth, getDatabaseMetrics } = require('./config/database');
 const { errorHandler, notFound } = require('./middleware/error');
 const {
   securityConfig,
@@ -76,8 +76,37 @@ app.get('/api', (req, res) => {
       customers: '/api/customers',
       leads: '/api/leads',
       dashboard: '/api/dashboard',
-      health: '/api/health'
+      health: '/api/health',
+      metrics: '/api/metrics'
     }
+  });
+});
+
+// Health check endpoints
+app.get('/api/health', async (req, res) => {
+  const health = await checkDatabaseHealth();
+  res.status(health.status === 'healthy' ? 200 : 503).json({
+    status: health.status,
+    timestamp: health.timestamp,
+    service: 'CRM Backend API',
+    version: process.env.npm_package_version || '1.0.0',
+    uptime: process.uptime(),
+    database: health
+  });
+});
+
+app.get('/api/metrics', async (req, res) => {
+  const metrics = await getDatabaseMetrics();
+  res.json({
+    database: metrics,
+    server: {
+      uptime: process.uptime(),
+      memory: process.memoryUsage(),
+      cpu: process.cpuUsage(),
+      version: process.version,
+      platform: process.platform
+    },
+    timestamp: new Date().toISOString()
   });
 });
 
